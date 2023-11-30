@@ -120,6 +120,7 @@ def find_ss(model,do_print=False):
         print(f'{ss.Y = :6.3f}')
         print(f'{ss.r = :6.3f}')
         print(f'{ss.w = :6.3f}')
+        print(f'{ss.U_hh = :6.3f}')
         print(f'{ss.clearing_A = :.2e}')
         print(f'{ss.clearing_L = :.2e}')
         print(f'{ss.clearing_Y = :.2e}')
